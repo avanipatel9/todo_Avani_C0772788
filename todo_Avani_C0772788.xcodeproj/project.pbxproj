@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4768DF7024A3BDD800EECEF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4768DF6F24A3BDD800EECEF2 /* AppDelegate.swift */; };
+		4768DF7224A3BDD800EECEF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4768DF7124A3BDD800EECEF2 /* SceneDelegate.swift */; };
+		4768DF7424A3BDD800EECEF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4768DF7324A3BDD800EECEF2 /* ViewController.swift */; };
+		4768DF7724A3BDD800EECEF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4768DF7524A3BDD800EECEF2 /* Main.storyboard */; };
+		4768DF7A24A3BDD800EECEF2 /* todo_Avani_C0772788.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4768DF7824A3BDD800EECEF2 /* todo_Avani_C0772788.xcdatamodeld */; };
+		4768DF7C24A3BDDA00EECEF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4768DF7B24A3BDDA00EECEF2 /* Assets.xcassets */; };
+		4768DF7F24A3BDDA00EECEF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4768DF7D24A3BDDA00EECEF2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4768DF6C24A3BDD800EECEF2 /* todo_Avani_C0772788.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todo_Avani_C0772788.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4768DF6F24A3BDD800EECEF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4768DF7124A3BDD800EECEF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4768DF7324A3BDD800EECEF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4768DF7624A3BDD800EECEF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4768DF7924A3BDD800EECEF2 /* todo_Avani_C0772788.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = todo_Avani_C0772788.xcdatamodel; sourceTree = "<group>"; };
+		4768DF7B24A3BDDA00EECEF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4768DF7E24A3BDDA00EECEF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4768DF8024A3BDDA00EECEF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4768DF6924A3BDD800EECEF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4768DF6324A3BDD800EECEF2 = {
+			isa = PBXGroup;
+			children = (
+				4768DF6E24A3BDD800EECEF2 /* todo_Avani_C0772788 */,
+				4768DF6D24A3BDD800EECEF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4768DF6D24A3BDD800EECEF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4768DF6C24A3BDD800EECEF2 /* todo_Avani_C0772788.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4768DF6E24A3BDD800EECEF2 /* todo_Avani_C0772788 */ = {
+			isa = PBXGroup;
+			children = (
+				4768DF6F24A3BDD800EECEF2 /* AppDelegate.swift */,
+				4768DF7124A3BDD800EECEF2 /* SceneDelegate.swift */,
+				4768DF7324A3BDD800EECEF2 /* ViewController.swift */,
+				4768DF7524A3BDD800EECEF2 /* Main.storyboard */,
+				4768DF7B24A3BDDA00EECEF2 /* Assets.xcassets */,
+				4768DF7D24A3BDDA00EECEF2 /* LaunchScreen.storyboard */,
+				4768DF8024A3BDDA00EECEF2 /* Info.plist */,
+				4768DF7824A3BDD800EECEF2 /* todo_Avani_C0772788.xcdatamodeld */,
+			);
+			path = todo_Avani_C0772788;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4768DF6B24A3BDD800EECEF2 /* todo_Avani_C0772788 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4768DF8324A3BDDA00EECEF2 /* Build configuration list for PBXNativeTarget "todo_Avani_C0772788" */;
+			buildPhases = (
+				4768DF6824A3BDD800EECEF2 /* Sources */,
+				4768DF6924A3BDD800EECEF2 /* Frameworks */,
+				4768DF6A24A3BDD800EECEF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = todo_Avani_C0772788;
+			productName = todo_Avani_C0772788;
+			productReference = 4768DF6C24A3BDD800EECEF2 /* todo_Avani_C0772788.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4768DF6424A3BDD800EECEF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Avani Patel";
+				TargetAttributes = {
+					4768DF6B24A3BDD800EECEF2 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 4768DF6724A3BDD800EECEF2 /* Build configuration list for PBXProject "todo_Avani_C0772788" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4768DF6324A3BDD800EECEF2;
+			productRefGroup = 4768DF6D24A3BDD800EECEF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4768DF6B24A3BDD800EECEF2 /* todo_Avani_C0772788 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4768DF6A24A3BDD800EECEF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4768DF7F24A3BDDA00EECEF2 /* LaunchScreen.storyboard in Resources */,
+				4768DF7C24A3BDDA00EECEF2 /* Assets.xcassets in Resources */,
+				4768DF7724A3BDD800EECEF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4768DF6824A3BDD800EECEF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4768DF7424A3BDD800EECEF2 /* ViewController.swift in Sources */,
+				4768DF7024A3BDD800EECEF2 /* AppDelegate.swift in Sources */,
+				4768DF7A24A3BDD800EECEF2 /* todo_Avani_C0772788.xcdatamodeld in Sources */,
+				4768DF7224A3BDD800EECEF2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4768DF7524A3BDD800EECEF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4768DF7624A3BDD800EECEF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4768DF7D24A3BDDA00EECEF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4768DF7E24A3BDDA00EECEF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4768DF8124A3BDDA00EECEF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4768DF8224A3BDDA00EECEF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4768DF8424A3BDDA00EECEF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = todo_Avani_C0772788/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.avanipatel.todo-Avani-C0772788";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4768DF8524A3BDDA00EECEF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = todo_Avani_C0772788/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.avanipatel.todo-Avani-C0772788";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4768DF6724A3BDD800EECEF2 /* Build configuration list for PBXProject "todo_Avani_C0772788" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4768DF8124A3BDDA00EECEF2 /* Debug */,
+				4768DF8224A3BDDA00EECEF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4768DF8324A3BDDA00EECEF2 /* Build configuration list for PBXNativeTarget "todo_Avani_C0772788" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4768DF8424A3BDDA00EECEF2 /* Debug */,
+				4768DF8524A3BDDA00EECEF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4768DF7824A3BDD800EECEF2 /* todo_Avani_C0772788.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4768DF7924A3BDD800EECEF2 /* todo_Avani_C0772788.xcdatamodel */,
+			);
+			currentVersion = 4768DF7924A3BDD800EECEF2 /* todo_Avani_C0772788.xcdatamodel */;
+			path = todo_Avani_C0772788.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4768DF6424A3BDD800EECEF2 /* Project object */;
+}
