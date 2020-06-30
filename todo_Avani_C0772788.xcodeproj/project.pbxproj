@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		4768DF7024A3BDD800EECEF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4768DF6F24A3BDD800EECEF2 /* AppDelegate.swift */; };
 		4768DF7224A3BDD800EECEF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4768DF7124A3BDD800EECEF2 /* SceneDelegate.swift */; };
-		4768DF7424A3BDD800EECEF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4768DF7324A3BDD800EECEF2 /* ViewController.swift */; };
 		4768DF7724A3BDD800EECEF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4768DF7524A3BDD800EECEF2 /* Main.storyboard */; };
 		4768DF7A24A3BDD800EECEF2 /* todo_Avani_C0772788.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4768DF7824A3BDD800EECEF2 /* todo_Avani_C0772788.xcdatamodeld */; };
 		4768DF7C24A3BDDA00EECEF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4768DF7B24A3BDDA00EECEF2 /* Assets.xcassets */; };
 		4768DF7F24A3BDDA00EECEF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4768DF7D24A3BDDA00EECEF2 /* LaunchScreen.storyboard */; };
+		476E797E24AA4C1A0061FD89 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476E797D24AA4C1A0061FD89 /* ToDoItem.swift */; };
+		476E798924AAC30D0061FD89 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476E798824AAC30D0061FD89 /* TodoViewController.swift */; };
+		476E798B24AAC3630061FD89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476E798A24AAC3630061FD89 /* ViewController.swift */; };
+		476E798D24AAC4360061FD89 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476E798C24AAC4360061FD89 /* TaskListViewController.swift */; };
+		476E798F24AAC5480061FD89 /* MoveTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476E798E24AAC5480061FD89 /* MoveTodoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4768DF6C24A3BDD800EECEF2 /* todo_Avani_C0772788.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todo_Avani_C0772788.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4768DF6F24A3BDD800EECEF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4768DF7124A3BDD800EECEF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4768DF7324A3BDD800EECEF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4768DF7624A3BDD800EECEF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4768DF7924A3BDD800EECEF2 /* todo_Avani_C0772788.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = todo_Avani_C0772788.xcdatamodel; sourceTree = "<group>"; };
 		4768DF7B24A3BDDA00EECEF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4768DF7E24A3BDDA00EECEF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4768DF8024A3BDDA00EECEF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		476E797D24AA4C1A0061FD89 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		476E798824AAC30D0061FD89 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
+		476E798A24AAC3630061FD89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		476E798C24AAC4360061FD89 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
+		476E798E24AAC5480061FD89 /* MoveTodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveTodoViewController.swift; sourceTree = "<group>"; };
+		47C2777A24A716430035B6AC /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "../../realm-swift-5.1.0/ios/swift-11.5/RealmSwift.framework"; sourceTree = "<group>"; };
+		47C2777E24A716460035B6AC /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "../../realm-swift-5.1.0/ios/swift-11.5/Realm.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +54,7 @@
 			children = (
 				4768DF6E24A3BDD800EECEF2 /* todo_Avani_C0772788 */,
 				4768DF6D24A3BDD800EECEF2 /* Products */,
+				47C2777924A716430035B6AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +69,53 @@
 		4768DF6E24A3BDD800EECEF2 /* todo_Avani_C0772788 */ = {
 			isa = PBXGroup;
 			children = (
+				476E798124AA4F0E0061FD89 /* Model */,
+				476E798024AA4F020061FD89 /* View */,
+				476E797F24AA4EE90061FD89 /* Controller */,
 				4768DF6F24A3BDD800EECEF2 /* AppDelegate.swift */,
 				4768DF7124A3BDD800EECEF2 /* SceneDelegate.swift */,
-				4768DF7324A3BDD800EECEF2 /* ViewController.swift */,
-				4768DF7524A3BDD800EECEF2 /* Main.storyboard */,
 				4768DF7B24A3BDDA00EECEF2 /* Assets.xcassets */,
-				4768DF7D24A3BDDA00EECEF2 /* LaunchScreen.storyboard */,
 				4768DF8024A3BDDA00EECEF2 /* Info.plist */,
 				4768DF7824A3BDD800EECEF2 /* todo_Avani_C0772788.xcdatamodeld */,
 			);
 			path = todo_Avani_C0772788;
+			sourceTree = "<group>";
+		};
+		476E797F24AA4EE90061FD89 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				476E798824AAC30D0061FD89 /* TodoViewController.swift */,
+				476E798A24AAC3630061FD89 /* ViewController.swift */,
+				476E798C24AAC4360061FD89 /* TaskListViewController.swift */,
+				476E798E24AAC5480061FD89 /* MoveTodoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		476E798024AA4F020061FD89 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4768DF7524A3BDD800EECEF2 /* Main.storyboard */,
+				4768DF7D24A3BDDA00EECEF2 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		476E798124AA4F0E0061FD89 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				476E797D24AA4C1A0061FD89 /* ToDoItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		47C2777924A716430035B6AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47C2777E24A716460035B6AC /* Realm.framework */,
+				47C2777A24A716430035B6AC /* RealmSwift.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +189,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4768DF7424A3BDD800EECEF2 /* ViewController.swift in Sources */,
+				476E798D24AAC4360061FD89 /* TaskListViewController.swift in Sources */,
+				476E798B24AAC3630061FD89 /* ViewController.swift in Sources */,
+				476E798924AAC30D0061FD89 /* TodoViewController.swift in Sources */,
+				476E798F24AAC5480061FD89 /* MoveTodoViewController.swift in Sources */,
 				4768DF7024A3BDD800EECEF2 /* AppDelegate.swift in Sources */,
+				476E797E24AA4C1A0061FD89 /* ToDoItem.swift in Sources */,
 				4768DF7A24A3BDD800EECEF2 /* todo_Avani_C0772788.xcdatamodeld in Sources */,
 				4768DF7224A3BDD800EECEF2 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,7 +349,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.avanipatel.todo-Avani-C0772788";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -314,7 +366,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.avanipatel.todo-Avani-C0772788";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
