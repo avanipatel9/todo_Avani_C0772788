@@ -14,7 +14,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var tabelView: UITableView!
     var categoryContext: NSManagedObjectContext!
-    var notificationArray = [ToDo]()
+    var notificationArray = [Todo]()
     
     var categoryName = UITextField()
     var categoryArray: [Category] = [Category]()
@@ -219,7 +219,7 @@ extension ViewController {
         func checkDueTasks() {
             
             let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-            let request: NSFetchRequest<ToDo> = ToDo.fetchRequest()
+            let request: NSFetchRequest<Todo> = Todo.fetchRequest()
             do {
                 let notifications = try context.fetch(request)
                 for task in notifications {

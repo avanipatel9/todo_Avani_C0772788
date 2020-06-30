@@ -10,7 +10,7 @@ import UIKit
 
 class TodoViewController: UIViewController {
 
-    var todo: ToDo?
+    var todo: Todo?
     var delegate: TaskListViewController?
     @IBOutlet weak var todoLbl: UITextField!
     @IBOutlet weak var datePicker: UIDatePicker!

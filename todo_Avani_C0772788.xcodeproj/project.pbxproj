@@ -18,6 +18,8 @@
 		476E798B24AAC3630061FD89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476E798A24AAC3630061FD89 /* ViewController.swift */; };
 		476E798D24AAC4360061FD89 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476E798C24AAC4360061FD89 /* TaskListViewController.swift */; };
 		476E798F24AAC5480061FD89 /* MoveTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476E798E24AAC5480061FD89 /* MoveTodoViewController.swift */; };
+		476E799524AAD74C0061FD89 /* todo_logo_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 476E799424AAD74C0061FD89 /* todo_logo_icon.png */; };
+		476E799924AAD86D0061FD89 /* todo_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 476E799824AAD86D0061FD89 /* todo_logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		476E798A24AAC3630061FD89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		476E798C24AAC4360061FD89 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
 		476E798E24AAC5480061FD89 /* MoveTodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveTodoViewController.swift; sourceTree = "<group>"; };
+		476E799424AAD74C0061FD89 /* todo_logo_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = todo_logo_icon.png; path = ../../../../Downloads/todo_logo_icon.png; sourceTree = "<group>"; };
+		476E799824AAD86D0061FD89 /* todo_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = todo_logo.png; path = ../../../../Downloads/todo_logo.png; sourceTree = "<group>"; };
 		47C2777A24A716430035B6AC /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "../../realm-swift-5.1.0/ios/swift-11.5/RealmSwift.framework"; sourceTree = "<group>"; };
 		47C2777E24A716460035B6AC /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "../../realm-swift-5.1.0/ios/swift-11.5/Realm.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +79,8 @@
 				4768DF6F24A3BDD800EECEF2 /* AppDelegate.swift */,
 				4768DF7124A3BDD800EECEF2 /* SceneDelegate.swift */,
 				4768DF7B24A3BDDA00EECEF2 /* Assets.xcassets */,
+				476E799824AAD86D0061FD89 /* todo_logo.png */,
+				476E799424AAD74C0061FD89 /* todo_logo_icon.png */,
 				4768DF8024A3BDDA00EECEF2 /* Info.plist */,
 				4768DF7824A3BDD800EECEF2 /* todo_Avani_C0772788.xcdatamodeld */,
 			);
@@ -179,6 +185,8 @@
 				4768DF7F24A3BDDA00EECEF2 /* LaunchScreen.storyboard in Resources */,
 				4768DF7C24A3BDDA00EECEF2 /* Assets.xcassets in Resources */,
 				4768DF7724A3BDD800EECEF2 /* Main.storyboard in Resources */,
+				476E799524AAD74C0061FD89 /* todo_logo_icon.png in Resources */,
+				476E799924AAD86D0061FD89 /* todo_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

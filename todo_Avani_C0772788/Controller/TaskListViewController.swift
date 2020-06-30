@@ -24,9 +24,9 @@ class TaskListViewController: UIViewController {
     
     var categoryName: String!
     let todoListContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-    var tasksArray = [ToDo]()
-    var selectedTodo: ToDo?
-    var todoToMove = [ToDo]()
+    var tasksArray = [Todo]()
+    var selectedTodo: Todo?
+    var todoToMove = [Todo]()
     
     let searchController = UISearchController(searchResultsController: nil)
     
@@ -85,7 +85,7 @@ class TaskListViewController: UIViewController {
 }
 
 extension TaskListViewController {
-    func loadTodos(with request: NSFetchRequest<ToDo> = ToDo.fetchRequest(), predicate: NSPredicate? = nil) {
+    func loadTodos(with request: NSFetchRequest<Todo> = Todo.fetchRequest(), predicate: NSPredicate? = nil) {
            
            let sortOptions = ["date", "name"]
             let todoPredicate = NSPredicate(format: "parentFolder.name=%@", selectedCategory!.name!)
@@ -152,7 +152,7 @@ extension TaskListViewController {
     
     func saveTodo(title: String, dueDate: Date)
     {
-        let todo = ToDo(context: todoListContext)
+        let todo = Todo(context: todoListContext)
         todo.name = title
         todo.due_date = dueDate
         todo.date = Date()
